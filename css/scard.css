@@ -98,6 +98,12 @@
   }
 }
 
+@media (max-width: 420px) {
+  .card__inner:hover {
+    height: 550px;
+  }
+}
+
 @media (max-width: 359px) {
   /* .card__inner {
     position: relative;
