@@ -8,6 +8,10 @@ jQuery(document).ready(function($) {
       effect: "explode",
       delay: 500
     },
+    position: {
+      my: "left bottom",
+      at: "left top"
+    },
     track: true,
     close: function () {$(".ui-helper-hidden-accessible").remove();  }
   });
