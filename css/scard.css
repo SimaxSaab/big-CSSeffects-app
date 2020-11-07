@@ -103,6 +103,11 @@
   .card__inner:hover {
     height: 500px;
   }
+  .card__inner:hover img {
+    /* left: 50%; */
+    height: 300px;
+    width: auto;
+  }
 }
 
 @media (max-width: 359px) {
@@ -116,14 +121,6 @@
   .card__inner img {
     width: 315px;
     height: auto;
-  }
-  .card__inner:hover {
-    height: 500px;
-  }
-  .card__inner:hover img {
-    /* left: 50%; */
-    height: 300px;
-    width: auto;
   }
   /* .card__content {
     width: 100%;
