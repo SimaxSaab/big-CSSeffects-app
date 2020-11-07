@@ -38,7 +38,7 @@
   background-attachment: fixed;
 }
 
-.content, .content-end {
+.content {  /*, .content-end*/
   position: absolute;
   bottom: 50px;
   left: 50px;
@@ -49,8 +49,8 @@
   right: 50px;
 }
 
-.content-end {
+/* .content-end {
   left: 50%;
   transform: translateX(-50%);
   color: rgb(240, 238, 146);
-}
+}  */
